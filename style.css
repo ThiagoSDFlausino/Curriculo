@@ -7102,7 +7102,7 @@ a.navbar-item.is-active,
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 2500px) {
 
     .navbar,
     .navbar-menu,
@@ -7209,11 +7209,6 @@ a.navbar-item.is-active,
     .navbar-menu {
         flex-grow: 1;
         flex-shrink: 0;
-    }
-
-    .navbar-start {
-        justify-content: flex-start;
-        margin-right: auto;
     }
 
     .navbar-end {
@@ -7818,7 +7813,7 @@ label.panel-block:hover {
 .tabs li {
     display: block;
 }
-
+t
 .tabs li.is-active a {
     border-bottom-color: #1a8cff;
     color: #1a8cff;
